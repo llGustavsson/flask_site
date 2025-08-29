@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>{% block title %}Atlas Quiz{% endblock %}</title>
+</head>
+<body>
+    {% block header %}
+    <header>
+        <h1>Atlas Quiz</h1>
+
+        <nav>
+            <a href="">Home</a>
+            <a href="">Quiz</a>
+            <a href="">Articles</a>
+        </nav>
+    </header>
+    {% endblock %}
+
+    <main>
+        {% block content%}
+        {% endblock %}
+    </main>
+</body>
+</html>
