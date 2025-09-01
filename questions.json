@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "options": ["Paris", "London", "Berlin", "Madrid"],
+    "answer": "Paris",
+    "category": "Geography"
+  },
+  {
+    "question": "Which river is the longest in the world?",
+    "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+    "answer": "Nile",
+    "category": "Geography"
+  },
+  {
+    "question": "Mount Everest is located on the border of which two countries?",
+    "options": ["India and China", "Nepal and China", "India and Nepal", "China and Bhutan"],
+    "answer": "Nepal and China",
+    "category": "Geography"
+  },
+  {
+    "question": "Which desert is the largest in the world?",
+    "options": ["Sahara", "Gobi", "Kalahari", "Arabian"],
+    "answer": "Sahara",
+    "category": "Geography"
+  },
+  {
+    "question": "Which continent has the most countries?",
+    "options": ["Africa", "Asia", "Europe", "South America"],
+    "answer": "Africa",
+    "category": "Geography"
+  },
+  {
+    "question": "What is the capital city of Canada?",
+    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "answer": "Ottawa",
+    "category": "Geography"
+  },
+  {
+    "question": "Which ocean is the largest by area?",
+    "options": ["Atlantic", "Pacific", "Indian", "Arctic"],
+    "answer": "Pacific",
+    "category": "Geography"
+  },
+  {
+    "question": "Which country has the most islands?",
+    "options": ["Sweden", "Indonesia", "Philippines", "Canada"],
+    "answer": "Sweden",
+    "category": "Geography"
+  },
+  {
+    "question": "Which U.S. state is the largest by area?",
+    "options": ["Texas", "California", "Alaska", "Montana"],
+    "answer": "Alaska",
+    "category": "Geography"
+  },
+  {
+    "question": "Which mountain range separates Europe and Asia?",
+    "options": ["Alps", "Ural", "Himalayas", "Andes"],
+    "answer": "Ural",
+    "category": "Geography"
+  },
+  {
+    "question": "What is the smallest country in the world?",
+    "options": ["Monaco", "San Marino", "Vatican City", "Liechtenstein"],
+    "answer": "Vatican City",
+    "category": "Geography"
+  },
+  {
+    "question": "Which river runs through Baghdad?",
+    "options": ["Euphrates", "Tigris", "Jordan", "Indus"],
+    "answer": "Tigris",
+    "category": "Geography"
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": ["China", "Japan", "Thailand", "Korea"],
+    "answer": "Japan",
+    "category": "Geography"
+  },
+  {
+    "question": "Which city is known as the City of Canals?",
+    "options": ["Venice", "Amsterdam", "Bangkok", "Bruges"],
+    "answer": "Venice",
+    "category": "Geography"
+  },
+  {
+    "question": "Which continent has no permanent human population?",
+    "options": ["Antarctica", "Australia", "South America", "Africa"],
+    "answer": "Antarctica",
+    "category": "Geography"
+  },
+  {
+    "question": "What is the largest lake in Africa?",
+    "options": ["Lake Tanganyika", "Lake Malawi", "Lake Victoria", "Lake Chad"],
+    "answer": "Lake Victoria",
+    "category": "Geography"
+  },
+  {
+    "question": "Which U.S. city is known as the Windy City?",
+    "options": ["New York", "Boston", "Chicago", "Detroit"],
+    "answer": "Chicago",
+    "category": "Geography"
+  },
+  {
+    "question": "Which country has the Great Barrier Reef?",
+    "options": ["Australia", "New Zealand", "Fiji", "Indonesia"],
+    "answer": "Australia",
+    "category": "Geography"
+  },
+  {
+    "question": "Which African country has the most population?",
+    "options": ["Nigeria", "Egypt", "South Africa", "Kenya"],
+    "answer": "Nigeria",
+    "category": "Geography"
+  },
+  {
+    "question": "What is the capital of Argentina?",
+    "options": ["Buenos Aires", "Lima", "Santiago", "Montevideo"],
+    "answer": "Buenos Aires",
+    "category": "Geography"
+  },
+  {
+    "question": "Which is the highest mountain in Africa?",
+    "options": ["Mount Kenya", "Mount Kilimanjaro", "Mount Meru", "Rwenzori"],
+    "answer": "Mount Kilimanjaro",
+    "category": "Geography"
+  },
+  {
+    "question": "Which country has the city of Istanbul?",
+    "options": ["Turkey", "Greece", "Bulgaria", "Cyprus"],
+    "answer": "Turkey",
+    "category": "Geography"
+  },
+  {
+    "question": "Which country is famous for fjords?",
+    "options": ["Norway", "Sweden", "Finland", "Iceland"],
+    "answer": "Norway",
+    "category": "Geography"
+  },
+  {
+    "question": "Which desert covers much of northern China and Mongolia?",
+    "options": ["Sahara", "Thar", "Gobi", "Karakum"],
+    "answer": "Gobi",
+    "category": "Geography"
+  },
+  {
+    "question": "Which sea separates Europe from Africa?",
+    "options": ["Mediterranean", "Black", "Red", "Baltic"],
+    "answer": "Mediterranean",
+    "category": "Geography"
+  },
+
+  {
+    "question": "Which gas is the primary contributor to global warming?",
+    "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Helium"],
+    "answer": "Carbon dioxide",
+    "category": "Climate Change"
+  },
+  {
+    "question": "Which layer of the atmosphere contains the ozone layer?",
+    "options": ["Troposphere", "Stratosphere", "Mesosphere", "Exosphere"],
+    "answer": "Stratosphere",
+    "category": "Climate Change"
+  },
+  {
+    "question": "Which country emits the most carbon dioxide annually?",
+    "options": ["USA", "India", "China", "Russia"],
+    "answer": "China",
+    "category": "Climate Change"
+  },
+  {
+    "question": "What is the main cause of sea level rise?",
+    "options": ["Volcanic eruptions", "Melting ice caps", "Earthquakes", "Tides"],
+    "answer": "Melting ice caps",
+    "category": "Climate Change"
+  },
+  {
+    "question": "What is the Kyoto Protocol about?",
+    "options": ["Biodiversity", "Climate change", "Deforestation", "Ozone depletion"],
+    "answer": "Climate change",
+    "category": "Climate Change"
+  },
+  {
+    "question": "Which renewable energy is produced by wind turbines?",
+    "options": ["Solar", "Wind", "Hydro", "Geothermal"],
+    "answer": "Wind",
+    "category": "Climate Change"
+  },
+  {
+    "question": "Which organization publishes climate change reports?",
+    "options": ["UNESCO", "IPCC", "WHO", "IMF"],
+    "answer": "IPCC",
+    "category": "Climate Change"
+  },
+  {
+    "question": "What does CO2 stand for?",
+    "options": ["Carbon monoxide", "Carbon dioxide", "Calcium dioxide", "Carbon hydroxide"],
+    "answer": "Carbon dioxide",
+    "category": "Climate Change"
+  },
+  {
+    "question": "Which phenomenon causes coral bleaching?",
+    "options": ["Cold water", "Storms", "Rising sea temperature", "Earthquakes"],
+    "answer": "Rising sea temperature",
+    "category": "Climate Change"
+  },
+  {
+    "question": "Which fossil fuel is the cleanest when burned?",
+    "options": ["Coal", "Oil", "Natural gas", "Peat"],
+    "answer": "Natural gas",
+    "category": "Climate Change"
+  },
+  {
+    "question": "Which gas causes the ozone hole?",
+    "options": ["CO2", "CH4", "CFCs", "N2O"],
+    "answer": "CFCs",
+    "category": "Climate Change"
+  },
+  {
+    "question": "What does the Paris Agreement aim to limit?",
+    "options": ["Pollution", "Temperature rise", "Sea levels", "Deforestation"],
+    "answer": "Temperature rise",
+    "category": "Climate Change"
+  },
+  {
+    "question": "Which country is most affected by rising sea levels?",
+    "options": ["Nepal", "Maldives", "Switzerland", "Austria"],
+    "answer": "Maldives",
+    "category": "Climate Change"
+  },
+  {
+    "question": "Which energy source is NOT renewable?",
+    "options": ["Solar", "Wind", "Coal", "Hydropower"],
+    "answer": "Coal",
+    "category": "Climate Change"
+  },
+  {
+    "question": "Which human activity produces most greenhouse gases?",
+    "options": ["Agriculture", "Deforestation", "Burning fossil fuels", "Fishing"],
+    "answer": "Burning fossil fuels",
+    "category": "Climate Change"
+  },
+  {
+    "question": "Which effect describes the warming of Earth?",
+    "options": ["Greenhouse effect", "Albedo effect", "Coriolis effect", "Doppler effect"],
+    "answer": "Greenhouse effect",
+    "category": "Climate Change"
+  },
+  {
+    "question": "Which country hosted COP26 in 2021?",
+    "options": ["France", "UK", "Brazil", "Germany"],
+    "answer": "UK",
+    "category": "Climate Change"
+  },
+  {
+    "question": "Which gas is produced by livestock?",
+    "options": ["CO2", "Methane", "Oxygen", "Nitrogen"],
+    "answer": "Methane",
+    "category": "Climate Change"
+  },
+  {
+    "question": "Which country is known for large-scale Amazon deforestation?",
+    "options": ["Peru", "Brazil", "Colombia", "Ecuador"],
+    "answer": "Brazil",
+    "category": "Climate Change"
+  },
+  {
+    "question": "What is desertification?",
+    "options": ["Forests turning into deserts", "Oceans drying", "Rivers freezing", "Mountains shrinking"],
+    "answer": "Forests turning into deserts",
+    "category": "Climate Change"
+  },
+  {
+    "question": "What is the main driver of ocean acidification?",
+    "options": ["Plastic waste", "CO2 absorption", "Oil spills", "Overfishing"],
+    "answer": "CO2 absorption",
+    "category": "Climate Change"
+  },
+  {
+    "question": "Which region is warming the fastest?",
+    "options": ["Antarctica", "Arctic", "Sahara", "Amazon"],
+    "answer": "Arctic",
+    "category": "Climate Change"
+  },
+  {
+    "question": "What is the average global temperature increase since pre-industrial times?",
+    "options": ["0.5°C", "1.1°C", "2.5°C", "4°C"],
+    "answer": "1.1°C",
+    "category": "Climate Change"
+  },
+  {
+    "question": "What does 'carbon footprint' measure?",
+    "options": ["Energy use", "Water use", "CO2 emissions", "Deforestation"],
+    "answer": "CO2 emissions",
+    "category": "Climate Change"
+  },
+
+  {
+    "question": "Which of these is a renewable energy source?",
+    "options": ["Coal", "Oil", "Solar", "Natural Gas"],
+    "answer": "Solar",
+    "category": "Sustainability"
+  },
+  {
+    "question": "What does the 3Rs principle stand for?",
+    "options": ["Recycle, Reuse, Reduce", "Reuse, Restore, Recycle", "Reduce, Replace, Reuse", "Recycle, Reduce, Renew"],
+    "answer": "Recycle, Reuse, Reduce",
+    "category": "Sustainability"
+  },
+  {
+    "question": "What is sustainable agriculture?",
+    "options": ["Maximizing yields", "Using chemicals", "Protecting resources", "Monoculture"],
+    "answer": "Protecting resources",
+    "category": "Sustainability"
+  },
+  {
+    "question": "Which material is biodegradable?",
+    "options": ["Plastic", "Glass", "Banana peel", "Aluminum"],
+    "answer": "Banana peel",
+    "category": "Sustainability"
+  },
+  {
+    "question": "What is the main source of plastic pollution in oceans?",
+    "options": ["Fishing nets", "Bottles and packaging", "Tires", "Medical waste"],
+    "answer": "Bottles and packaging",
+    "category": "Sustainability"
+  },
+  {
+    "question": "What is greenwashing?",
+    "options": ["Recycling properly", "Misleading eco-friendly claims", "Using green energy", "Planting trees"],
+    "answer": "Misleading eco-friendly claims",
+    "category": "Sustainability"
+  },
+  {
+    "question": "Which certification promotes fair trade?",
+    "options": ["LEED", "FSC", "Fairtrade", "ISO 14001"],
+    "answer": "Fairtrade",
+    "category": "Sustainability"
+  },
+  {
+    "question": "Which is the most sustainable form of transportation?",
+    "options": ["Car", "Bus", "Bicycle", "Airplane"],
+    "answer": "Bicycle",
+    "category": "Sustainability"
+  },
+  {
+    "question": "Which industry consumes the most freshwater?",
+    "options": ["Agriculture", "Industry", "Domestic use", "Mining"],
+    "answer": "Agriculture",
+    "category": "Sustainability"
+  },
+  {
+    "question": "Which label certifies sustainable forestry?",
+    "options": ["FSC", "Fairtrade", "Energy Star", "USDA Organic"],
+    "answer": "FSC",
+    "category": "Sustainability"
+  },
+  {
+    "question": "Which practice saves the most household energy?",
+    "options": ["Turning off lights", "Solar panels", "Efficient appliances", "Carpooling"],
+    "answer": "Efficient appliances",
+    "category": "Sustainability"
+  },
+  {
+    "question": "What is composting?",
+    "options": ["Burning waste", "Making fertilizer from organic waste", "Melting plastics", "Cleaning metals"],
+    "answer": "Making fertilizer from organic waste",
+    "category": "Sustainability"
+  },
+  {
+    "question": "Which packaging material is most eco-friendly?",
+    "options": ["Plastic", "Styrofoam", "Glass", "Paper"],
+    "answer": "Paper",
+    "category": "Sustainability"
+  },
+  {
+    "question": "What does LEED certify?",
+    "options": ["Green buildings", "Organic food", "Fair labor", "Clean water"],
+    "answer": "Green buildings",
+    "category": "Sustainability"
+  },
+  {
+    "question": "Which gas do trees absorb?",
+    "options": ["Oxygen", "Methane", "Carbon dioxide", "Nitrogen"],
+    "answer": "Carbon dioxide",
+    "category": "Sustainability"
+  },
+  {
+    "question": "What is a circular economy?",
+    "options": ["Reuse and recycle resources", "Linear production", "Exporting waste", "Burning energy"],
+    "answer": "Reuse and recycle resources",
+    "category": "Sustainability"
+  },
+  {
+    "question": "Which energy source produces no emissions during operation?",
+    "options": ["Coal", "Oil", "Nuclear", "Natural Gas"],
+    "answer": "Nuclear",
+    "category": "Sustainability"
+  },
+  {
+    "question": "Which continent recycles the most waste?",
+    "options": ["Asia", "North America", "Europe", "Africa"],
+    "answer": "Europe",
+    "category": "Sustainability"
+  },
+  {
+    "question": "Which sector emits the most greenhouse gases?",
+    "options": ["Transport", "Industry", "Agriculture", "Energy production"],
+    "answer": "Energy production",
+    "category": "Sustainability"
+  },
+  {
+    "question": "What is the goal of zero waste?",
+    "options": ["Burn all waste", "Recycle everything", "Send nothing to landfill", "Reduce energy use"],
+    "answer": "Send nothing to landfill",
+    "category": "Sustainability"
+  },
+  {
+    "question": "What is responsible consumption?",
+    "options": ["Buying a lot", "Saving money", "Buying eco-friendly and necessary products", "Only luxury goods"],
+    "answer": "Buying eco-friendly and necessary products",
+    "category": "Sustainability"
+  },
+  {
+    "question": "Which farming method avoids synthetic chemicals?",
+    "options": ["Conventional", "Organic", "Monoculture", "Industrial"],
+    "answer": "Organic",
+    "category": "Sustainability"
+  },
+  {
+    "question": "Which gas is reduced by planting trees?",
+    "options": ["Nitrogen", "Oxygen", "Carbon dioxide", "Methane"],
+    "answer": "Carbon dioxide",
+    "category": "Sustainability"
+  },
+  {
+    "question": "What is upcycling?",
+    "options": ["Turning waste into better products", "Throwing away waste", "Burning waste", "Recycling paper only"],
+    "answer": "Turning waste into better products",
+    "category": "Sustainability"
+  }
+]
