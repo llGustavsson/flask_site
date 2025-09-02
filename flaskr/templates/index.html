@@ -3,13 +3,16 @@
 {% block title %}Home - Atlas Quiz{% endblock %}
 
 {% block content %}
-    <h2>Welcome to the Atlas Quiz</h2>
-    <section>
-        <h2>Quiz</h2>
-        <a href="{{ url_for('quiz') }}">Start Quiz</a>
-    </section>
-    <section>
-        <h2>Articles</h2>
-        <a href="{{ url_for('articles') }}">Learn More</a>
-    </section>
+    <h2 class="menu_text">Welcome to the Atlas Quiz</h2>
+    <p class="menu_text" id="sub_p">A website with quiz and articles about geography, climate change and sustainability</p>
+    <div class="container">
+        <section>
+            <h2>Quiz</h2>
+            <a href="{{ url_for('quiz') }}">Start Quiz</a>
+        </section>
+        <section>
+            <h2>Articles</h2>
+            <a href="{{ url_for('articles') }}">Learn More</a>
+        </section>
+    </div>
 {% endblock %}

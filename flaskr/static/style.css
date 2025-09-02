@@ -1,0 +1,115 @@
+html {
+    line-height: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #dcdbdb;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #0a3a99;
+}
+
+header {
+    background-color: #2b2929;
+    color: white;
+}
+
+header p{
+    text-decoration: none;
+    color: white;
+}
+
+header h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 2.5em;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 18px;
+}
+
+nav a {
+    text-align: center;
+    padding: 18px;
+}
+
+div {
+    padding-left: 20px;
+}
+
+form {
+    font-size: 18px;
+    line-height: 2.5em;
+}
+
+form p{
+    font-size: 18px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #525252;
+}
+
+ul {
+    line-height: 2.5em;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.menu_text {
+    font-size: 48px;
+    text-align: center;
+    padding: 12px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 48px;
+    text-align: center;
+    line-height: 5em;
+}
+
+.articles_menu {
+    padding-left: 18px;
+}
+
+.div_articles {
+    padding-left: 48px;
+    max-width: 60vw;
+}
+
+#quiz_title {
+    font-size: 28px;
+    padding: 18px;
+}
+
+#quiz_body {
+    padding-left: 18px;
+}
+
+#score {
+    padding: 18px;
+}
+
+#sub_p {
+    font-size: 24px;
+}
