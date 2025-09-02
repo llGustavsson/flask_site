@@ -1,20 +1,23 @@
 {% extends "base.html" %}
+
+{% block title %}Results - Atlas Quiz{% endblock %}
+
 {% block content %}
-<h2>Your Score: {{ score }}/{{ total }}</h2>
+    <h2>Your Score: {{ score }}/{{ total }}</h2>
 
-<h4>Review:</h4>
-<ul>
-    {% for r in results %}
-        <li>
-            <strong>{{ r.question }}</strong><br>
-            Your answer: {{ r.user_answer }}<br>
-            Correct answer: {{ r.correct_answer }}<br>
-            {% if r.is_correct %}✅ Correct{% else %}❌ Incorrect{% endif %}
-        </li>
-        <hr>
-    {% endfor %}
-</ul>
+    <h4>Review:</h4>
+    <ul>
+        {% for r in results %}
+            <li>
+                <strong>{{ r.question }}</strong><br>
+                Your answer: {{ r.user_answer }}<br>
+                Correct answer: {{ r.correct_answer }}<br>
+                {% if r.is_correct %}✅ Correct{% else %}❌ Incorrect{% endif %}
+            </li>
+            <hr>
+        {% endfor %}
+    </ul>
 
-<a href="{{ url_for('quiz') }}">Try Again</a>
-<a href="{{ url_for('index') }}">Back Home</a>
+    <a href="{{ url_for('quiz') }}">Try Again</a>
+    <a href="{{ url_for('index') }}">Back Home</a>
 {% endblock %}

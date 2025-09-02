@@ -8,15 +8,15 @@
 </head>
 <body>
     {% block header %}
-    <header>
-        <h1>Atlas Quiz</h1>
+        <header>
+            <h1>Atlas Quiz</h1>
 
-        <nav>
-            <a href="{{ url_for('index') }}">Home</a>
-            <a href="{{ url_for('quiz') }}">Quiz</a>
-            <a href="">Articles</a>
-        </nav>
-    </header>
+            <nav>
+                <a href="{{ url_for('index') }}">Home</a>
+                <a href="{{ url_for('quiz') }}">Quiz</a>
+                <a href="{{ url_for('articles') }}">Articles</a>
+            </nav>
+        </header>
     {% endblock %}
 
     <main>

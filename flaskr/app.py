@@ -5,19 +5,26 @@ import random
 app = Flask(__name__)
 app.secret_key = "test_key_001"
 
-
+# Load all questions
 with open("questions.json", "r", encoding="utf-8") as f:
     questions = json.load(f)
 
+# Index page
 @app.route("/")
 def index():
     return render_template("index.html")
 
+# Articles page
+@app.route("/articles")
+def articles():
+    return render_template("articles.html")
+
+# Quiz page and logic
 @app.route("/quiz", methods=["GET","POST"])
 def quiz():
     # Initialize quiz on first visit or after reset
     if 'selected_questions' not in session:
-        session['selected_questions'] = random.sample(questions, 20)
+        session['selected_questions'] = random.sample(questions, 5)
         session['current'] = 0
         session['score'] = 0
         session['answers'] = []
