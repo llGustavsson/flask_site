@@ -6,8 +6,22 @@ app = Flask(__name__)
 app.secret_key = "test_key_001"
 
 # Load all questions
-with open("questions.json", "r", encoding="utf-8") as f:
-    questions = json.load(f)
+def load_questions():
+    with open("questions.json", "r", encoding="utf-8") as f:
+        return json.load(f)
+
+# Save quiz results
+def save_results(results):
+    try:
+        with open("results.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        data = []
+    
+    data.append(results)
+
+    with open("results.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
 
 # Index page
 @app.route("/")
@@ -23,6 +37,7 @@ def articles():
 @app.route("/quiz", methods=["GET","POST"])
 def quiz():
     # Initialize quiz on first visit or after reset
+    questions = load_questions()
     if 'selected_questions' not in session:
         session['selected_questions'] = random.sample(questions, 5)
         session['current'] = 0
@@ -56,6 +71,16 @@ def quiz():
         current = session['current']
 
         if current >= len(selected_questions):
+            score = session["score"]
+            results = session["answers"]
+            total = len(selected_questions)
+        
+            save_results({
+                "score": score,
+                "total": total,
+                "answers": results
+            })
+
             return redirect(url_for("result"))
 
     # Show current question
